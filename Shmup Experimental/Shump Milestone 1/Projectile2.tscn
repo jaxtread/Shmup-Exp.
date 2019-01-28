@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Projectile2.gd" type="Script" id=1]
+[ext_resource path="res://graphics/projectile.png" type="Texture" id=2]
+
+[node name="Projectile2" type="Node2D"]
+position = Vector2( 122.105, 557.895 )
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Sprite" type="Sprite" parent="."]
+texture = ExtResource( 2 )
+
